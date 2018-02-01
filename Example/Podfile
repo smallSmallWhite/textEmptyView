@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'CPEmptyView_Example' do
+  pod 'CPEmptyView', :path => '../'
+
+  target 'CPEmptyView_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
