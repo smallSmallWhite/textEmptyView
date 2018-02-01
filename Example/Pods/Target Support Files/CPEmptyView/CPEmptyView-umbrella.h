@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "EmptyView.h"
 
 FOUNDATION_EXPORT double CPEmptyViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char CPEmptyViewVersionString[];
